@@ -24,7 +24,7 @@ The **Spanning Tree Protocol** (**STP**) is a network protocol that builds a loo
     * Non Designated Ports are between two non Root Bridge switches
     *  Non Designated Ports are in the **Blocking Mode**
 
- ### Ports Mode ( By Order)
+### Ports Mode ( By Order)
  1. Blocking ( For 20 Seconds)
  2. Listening
     * For 15 seconds and will share Bridge Protocol Data Unit (**BDUP**)

@@ -1,6 +1,6 @@
 # COE 444 FINAL EXAM SUMMARY
 
-## In addition, you have to know the interpretations of show commands. (**Very Important**)
+### In addition to this document, you must know the interpretations of show commands. (**Very Important**)
 
 ## Subnetting
 A **subnetwork** or **subnet** is a logical subdivision of an IP network. The practice of dividing a network into two or more networks is called **subnetting**.

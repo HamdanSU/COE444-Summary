@@ -88,10 +88,12 @@ A **Multilayer Switch** can perform the functions of a switch as well as that of
    * Affected by changes in the VTP, and pass the VTP to other switches
 3. Transperant
    * **Not** affected by changes in the VTP, and pass the VTP to other switches
- ### Important Notes
+ 
+### Important Notes
  - There can be more than one server in the VTP
  - The ports between swtiches need to be in trunk mode
  - The higher VTP revision number is the fresher (**Last update**)
+
 ### Commands for VTP
 - vtp domain [domain name]
 - vtp pass [password]

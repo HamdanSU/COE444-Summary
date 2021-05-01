@@ -63,7 +63,7 @@ Metric(Cost) = Reference-bandwidth/interface-bandwidth (**It cannot be less than
 - The ports betwen the switches need to in trunk mode
 - The ports between the switches and end devices need to be in access mode
 - It is preferable if you set the ports connected to the end devices to portfast and bdup gaurd enable
-- 
+
 ### Cisco Packet Tracer commands for PVST and Dot1Q
 - spanning-tree mode pvst
 - switchport trunk mode
@@ -172,7 +172,7 @@ A **Multilayer Switch** can perform the functions of a switch as well as that of
 
 ### Important Notes
 - OSPF uses 110 as an administrative distance all routers in the protocol whether its external or Inter Area (**It can be found in the routing table next to the route [administrative/number]**)
-- 
+
 ### Commands for OSPF
 - router ospf [1-65535 Process ID]
 - router-id [ID in the form N.N.N.N]

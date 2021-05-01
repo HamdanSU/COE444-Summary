@@ -1,4 +1,5 @@
 # COE 444 FINAL EXAM SUMMARY
+# In addition, you have to know the interpretations of show commands. (**Very Important**)
 
 ## Subnetting
 A **subnetwork** or **subnet** is a logical subdivision of an IP network. The practice of dividing a network into two or more networks is called **subnetting**.
@@ -190,6 +191,10 @@ A **Multilayer Switch** can perform the functions of a switch as well as that of
 ### Setting a router as a successor
 1.  You can change the bandwith in the interface leading to the router (**i.e bandwith 32**)
 2.  You can change the dealy in the interface leading to the router(**i.e delay 100000**)
+
+### Rule of choosing Feasible Successor (FS):
+Administrative Distance of Feasible Successor should be lower than Feasible Distance of the successor
+
 ### Important Notes
 - Eigrp uses 90 as an administrative distance for Eigrp routes and more than 90 for external routes the default is 170 (**It can be found in the routing table next to the route [administrative/number]**)
 

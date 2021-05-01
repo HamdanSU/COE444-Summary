@@ -197,8 +197,8 @@ A **Multilayer Switch** can perform the functions of a switch as well as that of
 - eigrp [1-65535 AS num]
 - no auto-summary
 - network [ip] [wild card]
-- redistribute rip metric [10000][10][255][1][1500]
-- redistribute ospf [1-65535 Process ID] metric [10000][10][255][1][1500]
+- redistribute rip metric [10000][100][255][1][1500]
+- redistribute ospf [1-65535 Process ID] metric [10000][100][255][1][1500]
 - redistribute static
 
 ## BGP
@@ -285,14 +285,35 @@ IP v6 was developed by Internet Engineering Task Force (IETF) to deal with the p
 ### Commands for RIPng
 - ipv6 rip RIP1 enable
 - ipv6 rip RIP1 default-information originate
+- redistribute ospf [<1-65535 ID] metric [0-16]
+- redistribute eigrp [<1-65535 ID] metric [0-16]
 
 ## OSPF V3
 ### Important Notes
 - Unlike OSPF, OSPFV3 commands is written in the interfaces conneting the routers
 
+### Commands for OSPF V3
+- ipv6 ospf [1-65535 Process ID] area [OSPF area ID]
+- ipv6 router ospf [1-65535 Process ID]
+- router-id [N.N.N.N]
+- default-information originate
+- redistribute rip subnets
+- redistribute eigrp [1-65535] subnets
+- 
+
 ## EIGRPV6
 ### Important Notes
 - Unlike EIGRP, EIGRPV6 commands is written in the interfaces conneting the routers
+- You must have a router-id
+- You must write no shutdown to bring the protocol up
+
+### Commands for EIGRPV6
+- ipv6 router eigrp [1-65535 Process ID]
+- no shutdown
+- eigrp router-id [N.N.N.N]
+- redistribute rip metric [10000][100][255][1][1500]
+- redistribute ospf [1-65535 Process ID] metric [10000][100][255][1][1500]
+- redistribute static
 
 ## NAT 
 **Network Address Translation (NAT)** is a process in which one or more local IP address is translated into one or more Global IP address and vice versa in order to provide Internet access to the local hosts.

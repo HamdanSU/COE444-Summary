@@ -283,23 +283,23 @@ IP v6 was developed by Internet Engineering Task Force (IETF) to deal with the p
 - Defualt router information need to be shared between routers and the command is written at every router
 
 ### Commands for RIPng
-- ipv6 rip RIP1 enable
-- ipv6 rip RIP1 default-information originate
+- ipv6 rip [NAME] enable
+- ipv6 rip [NAME] default-information originate
 - redistribute ospf [<1-65535 ID] metric [0-16]
 - redistribute eigrp [<1-65535 ID] metric [0-16]
 
 ## OSPF V3
 ### Important Notes
 - Unlike OSPF, OSPFV3 commands is written in the interfaces conneting the routers
+- It is better to give the router a router id
 
 ### Commands for OSPF V3
 - ipv6 ospf [1-65535 Process ID] area [OSPF area ID]
 - ipv6 router ospf [1-65535 Process ID]
 - router-id [N.N.N.N]
 - default-information originate
-- redistribute rip subnets
-- redistribute eigrp [1-65535] subnets
-- 
+- redistribute rip [NAME]
+- redistribute eigrp [1-65535]
 
 ## EIGRPV6
 ### Important Notes

@@ -287,6 +287,7 @@ IP v6 was developed by Internet Engineering Task Force (IETF) to deal with the p
 - ipv6 rip [NAME] default-information originate
 - redistribute ospf [<1-65535 ID] metric [0-16]
 - redistribute eigrp [<1-65535 ID] metric [0-16]
+- redistribute connected 
 
 ## OSPF V3
 ### Important Notes
@@ -300,6 +301,7 @@ IP v6 was developed by Internet Engineering Task Force (IETF) to deal with the p
 - default-information originate
 - redistribute rip [NAME]
 - redistribute eigrp [1-65535]
+- redistribute connected 
 
 ## EIGRPV6
 ### Important Notes
@@ -314,6 +316,7 @@ IP v6 was developed by Internet Engineering Task Force (IETF) to deal with the p
 - redistribute rip metric [10000][100][255][1][1500]
 - redistribute ospf [1-65535 Process ID] metric [10000][100][255][1][1500]
 - redistribute static
+- redistribute connected 
 
 ## NAT 
 **Network Address Translation (NAT)** is a process in which one or more local IP address is translated into one or more Global IP address and vice versa in order to provide Internet access to the local hosts.

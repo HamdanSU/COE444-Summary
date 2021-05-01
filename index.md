@@ -259,6 +259,14 @@ IP v6 was developed by Internet Engineering Task Force (IETF) to deal with the p
  - Anycast
     * Anycast Address is assigned to a group of interfaces. Any packet sent to anycast address will be delivered to only one member interface (mostly nearest host possible).
 
+### Important Notes
+- IPV6 allows you to have more one address at the same interface
+- Contiguous 0s are compressed (**i.e 47CD::A456:0124**)
+- IPV6 is compatible with IPV4
+
+### Converting IPV4 to IPV6
+![](https://www.researchgate.net/profile/Sumit-Khandelwal-2/publication/271294793/figure/fig1/AS:392055806283779@1470484796300/IPv4-to-IPv6-Conversion-Method1-In-this-method-firstly-to-convert-the-Decimal-IPv4.png)
+
 ### Commands for IPV6 
 - ipv6 unicast-routing
 - ipv6 address FE80::# link-local

@@ -39,7 +39,10 @@ The **Spanning Tree Protocol** (**STP**) is a network protocol that builds a loo
 - 1 Gigabyte = 4
 -  100 Megabyte = 19
 -  10 Megabyte = 100
-- 
+
+### The calculation of Metric or Cost:
+Metric(Cost) = Reference-bandwidth/interface-bandwidth (**It cannot be less than 1**)
+
 ### Cisco Packet Tracer commands for STP
 - spanning-tree vlan <#> priority <#>
 - spanning-tree vlan <#> root primary

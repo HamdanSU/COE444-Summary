@@ -343,3 +343,16 @@ Inside refers to the addresses which must be translated. Outside refers to the a
 ![](https://i.ibb.co/R0bGJx9/NAT2.png)
 ![](https://i.ibb.co/hXYwXfc/NAT3.png)
 ![](https://i.ibb.co/4ZvzrJF/NAT4.png)
+
+## Show Commands interpretations
+### Routers Command
+- show ip interface brief
+  * This command provides a quick overview of all interfaces on the router including their IP addresses and status.
+![](https://www.computernetworkingnotes.org/images/cisco/ccna-study-guide/show-ip-interface-brief.png)
+- show ip interface brief
+  * This command is used to check the hardware statistic of interface including clock rate and cable status such as cable is attached or not. One end of serial cable is physically DTE, and other end is DCE. If cable is attached, it will display the type of cable.
+![](https://www.computernetworkingnotes.org/images/cisco/ccna-study-guide/show-controllers.png)
+
+
+
+

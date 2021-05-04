@@ -298,6 +298,7 @@ IP v6 was developed by Internet Engineering Task Force (IETF) to deal with the p
 ### Commands for RIPng
 - ipv6 rip [NAME] enable
 - ipv6 rip [NAME] default-information originate
+- ipv6 router rip [NAME]
 - redistribute ospf [<1-65535 ID] metric [0-16]
 - redistribute eigrp [<1-65535 ID] metric [0-16]
 - redistribute connected 

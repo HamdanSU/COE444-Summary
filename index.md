@@ -113,7 +113,7 @@ A **Multilayer Switch** can perform the functions of a switch as well as that of
 - ip route 0.0.0.0 0.0.0.0 [Port] (**For default route**)
 
 ## RIP Protocol
-**Routing Information Protocol** (RIP) is a dynamic routing protocol(*Distance Vector*) which uses hop count as a routing metric to find the best path between the source and the destination network.
+**Routing Information Protocol** (RIP) is a dynamic routing protocol (*Distance Vector*) which uses hop count as a routing metric to find the best path between the source and the destination network.
 
 **Hop Count** is the number of routers occurring in between the source and destination network.
 
@@ -140,6 +140,7 @@ A **Multilayer Switch** can perform the functions of a switch as well as that of
 - redistribute ospf [<1-65535 ID] metric [0-16]
 - redistribute eigrp [<1-65535 ID] metric [0-16]
 - redistribute static
+
 ## OSPF Protocol
 **Open Shortest Path First (OSPF)** is a link-state routing protocol that is used to find the best path between the source and the destination router using its own Shortest Path First).
 
@@ -183,7 +184,7 @@ A **Multilayer Switch** can perform the functions of a switch as well as that of
 - area [OSPF area ID] range [summarized network IP] [summarized network subnet mask]
 
 ## EIGRP Protocol
-**Enhanced Interior Gateway Routing Protocol (EIGRP)** is a dynamic routing Protocol(*link-state*) which is used to find the best path between any two layer 3 device to deliver the packet.
+**Enhanced Interior Gateway Routing Protocol (EIGRP)** is a dynamic routing Protocol (*link-state*) which is used to find the best path between any two layer 3 device to deliver the packet.
 
 ### Feasible and reported distance
 -   **Feasible distance (FD)**  – the metric of the best route to reach a network. That route will be listed in the routing table.
@@ -205,7 +206,7 @@ Administrative Distance of Feasible Successor should be lower than Feasible Dist
 - Eigrp uses 90 as an administrative distance for Eigrp routes and more than 90 for external routes the default is 170 (**It can be found in the routing table next to the route [administrative/number]**)
 
 ### Commands for EIGRP
-- eigrp [1-65535 AS num]
+- router eigrp [1-65535 AS num]
 - no auto-summary
 - network [ip] [wild card]
 - redistribute rip metric [10000][100][255][1][1500]

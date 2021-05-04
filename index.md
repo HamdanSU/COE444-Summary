@@ -232,6 +232,7 @@ Administrative Distance of Feasible Successor should be lower than Feasible Dist
 ## iBGP-eBGP
 If a BGP session is established between two neighbors in different autonomous systems, the session is _external BGP (EBGP)_, and if the session is established between two neighbors in the same AS, the session is _internal BGP_
 ![](https://www.networkcomputing.com/sites/default/files/1-6.jpg)
+
 **IBGP** can use EIGRP or OSFP. RIP is not suitable.
 
 ## Access Control List (ACL)

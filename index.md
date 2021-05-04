@@ -344,7 +344,7 @@ Inside refers to the addresses which must be translated. Outside refers to the a
 ![](https://i.ibb.co/hXYwXfc/NAT3.png)
 ![](https://i.ibb.co/4ZvzrJF/NAT4.png)
 
-## Show Commands interpretations (Ipv6 commands and results are the same just write ipv6 instead of ip
+## Show Commands interpretations (Ipv6 commands and results are the same just write ipv6 instead of ip)
 - show ip interface brief
   * This command provides a quick overview of all interfaces on the router including their IP addresses and status.
   

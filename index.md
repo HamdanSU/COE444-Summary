@@ -347,36 +347,92 @@ Inside refers to the addresses which must be translated. Outside refers to the a
 ## Show Commands interpretations
 - show ip interface brief
   * This command provides a quick overview of all interfaces on the router including their IP addresses and status.
+  
 ![](https://www.computernetworkingnotes.org/images/cisco/ccna-study-guide/show-ip-interface-brief.png)
 - show ip interface brief
   * This command is used to check the hardware statistic of interface including clock rate and cable status such as cable is attached or not. One end of serial cable is physically DTE, and other end is DCE. If cable is attached, it will display the type of cable.
+  
 ![](https://www.computernetworkingnotes.org/images/cisco/ccna-study-guide/show-controllers.png)
 - show ip route
   * Routers use routing table to take packet forward decision. This command displays routing table.
+ 
 ![](https://www.computernetworkingnotes.org/images/cisco/ccna-study-guide/show-ip-route.png)
 - show spanning-tree command
   * To view the information about the STP operation, you can use the show spanning-tree command from the privileged-exec mode. The output of this command can be divided into three subsets. The first set contains information about the Root Bridge. The second set contains information about the switch itself. The third set lists the status of active interfaces that are participating in the STP operation.
+ 
 ![](https://www.computernetworkingnotes.org/images/cisco/ccna-study-guide/csg39-02-stp-show-spanning-tree.png)
 - show vtp status
   * which shows you the VTP configuration — minus the password — for your switch. Note that you see the revision number here, as well as the mode and domain name
+ 
 ![](https://geek-university.com/wp-content/uploads/2015/10/show_vtp_status.jpg)
 - show vtp counters
   * counters is very useful because it shows you the advertisements that you sent and received. If you are not receiving these, check the Trunk settings.
+  
 ![](https://cdn.briefmenow.org/wp-content/uploads/200-125-v1/61.jpg)
 - show ip protocols
   * The *show ip protocols* command displays the parameters and other information about the current state of any active IPv4 routing protocol processes configured on the router. The *show ip protocols* command displays different types of output specific to each routing protocol.
+ 
 ![](https://i.pinimg.com/originals/5d/f7/47/5df74779f8274c0f4b2d66b124f4c183.jpg)
 ![](http://humairahmed.com/blog/wp-content/uploads/2012/01/ospf_show_ip_prot-e1325672534768.png)
 ![](https://itexamanswers.net/wp-content/uploads/2015/06/i221226v1n3_221226-1.png)
 - show ip rip
   * To display general RIP information, enter show ip rip at any context level. The resulting display will appear similar to the following:
+ 
 ![](https://i.ibb.co/Zm62KDv/Capture.png)
 ![](https://i.ibb.co/YBjQLL7/Capture.png)
 - show ip ospf general
   * General output for the show ip ospf command
+ 
 ![](https://i.ibb.co/gRmLGNN/Capture.png)
 - show ip ospf area [ ospf-area-id]
   * The [ospf-area-id] parameter shows information for the specified area. If no area is specified, information for all the OSPF areas configured is displayed.
+  
 ![](https://i.ibb.co/qJrBRjN/Capture.png)
 ![](https://i.ibb.co/P1xvLMv/Capture.png)
+
+- show ip ospf neighbor
+  * Shows information about all neighbors.
+
+![](https://www.thebryantadvantage.com/wp-content/uploads/2016/07/OSPF-16-Show-IP-OSPF-Neighbor-R3-R4.jpg)
+![](https://i.ibb.co/4jqgTrw/Capture.png)
+
+- show ip eigrp neighbors
+  * this table consists of information of neighbor routers whose information is collected using Hellos. It consists of all directed neighbors.
+
+![](https://www.certiology.com/wp-content/uploads/2015/10/Neighbor-Table.bmp)
+![](https://i.ibb.co/zSnqd4B/Capture.png)
+
+- show ip eigrp topology
+  * The EIGRP topology table contains all of the routes that are known to each EIGRP neighbor. As an EIGRP router learns routes from its neighbors, those routes are installed in its EIGRP topology table.
+  
+![](https://www.certiology.com/wp-content/uploads/2015/10/Topology-Table.gif)
+![](https://i.ibb.co/N6c63Wd/Capture.png)
+
+- show access-lists
+  * Displays contents of all access lists or one specified access list.
+
+![](https://cdn.pcwdld.com/wp-content/uploads/13-show-ip-access-list.png)
+
+- show ip bgp
+  * Displays entries in the BGP routing table for one network prefix or the entire BGP routing table.
+ 
+![](https://www.digitaltut.com/images/ROUTE/BGP/BGP_show_ip_bgp.jpg)
+
+- show ip bgp summary
+  * Displays a summary of the status of all BGP connections.
+
+![](https://cdn.briefmenow.org/wp-content/uploads/642-892/52.png)
+![](https://i.ibb.co/jLQjb8H/Capture.png)
+
+- Show ip nat statistics
+  * You will often want to look at NAT statistics, including information on which interfaces use NAT, how many entries are in the NAT table, how often they have been used, and, most importantly, how often packets have bypassed NAT.
+
+![](http://1.bp.blogspot.com/-owR1qOCVNgY/US0TXDvFCsI/AAAAAAAAAQ4/5k0ljNCWFQk/s1600/show_ip_nat_statistics.png)
+
+- show ip nat translations
+  * To display active Network Address Translation (NAT) translation
+ 
+![](https://selftechs.files.wordpress.com/2012/09/11.jpg)
+![](https://i.ibb.co/cytYrX8/Capture.png)
+
 

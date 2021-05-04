@@ -252,8 +252,8 @@ If a BGP session is established between two neighbors in different autonomous sy
 7.  Standard access lists and extended access lists cannot have the same name.
 
 ### Important Notes
--   **Inbound access lists –**  When an access list is applied on inbound packets of the interface then first the packets will processed according to the access list and then routed to the outbound interface.
--   **Outbound access lists –**  When an access list is applied on outbound packets of the interface then first the packet will be routed and then processed at the outbound interface.
+-   **Inbound access lists –** (**Usually used with Extended Access-list**)  When an access list is applied on inbound packets of the interface then first the packets will processed according to the access list and then routed to the outbound interface.
+-   **Outbound access lists –** (**Usually used with Standard Access-list**) When an access list is applied on outbound packets of the interface then first the packet will be routed and then processed at the outbound interface.
 
 ### Commands for ACL
 ![](https://i.ibb.co/7VsHYYg/ACL1.png)
